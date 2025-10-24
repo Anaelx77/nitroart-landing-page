@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NitroArt</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img src="assets/logo.png" alt="Logo" />
+  </header>
+  <main class="container">
+    <h1 class="produtos">Produtos</h1>
+    <div class="filtros">
+      <div class="categorias-cartas">
+        <label for="categoria">Categorias</label>
+        <select id="categoria" class="categoria">
+          <option value="">Selecione uma marca</option>
+          <option value="McLaren">McLaren</option>
+          <option value="Porsche">Porsche</option>
+          <option value="BMW">BMW</option>
+          <option value="Lamborghini">Lamborghini</option>
+        </select>
+      </div>
+      <div class="preco-cartas">
+        <label for="preco">Preço máximo (R$)</label>
+        <input type="text" id="preco" class="preco" placeholder="Ex: 1000" />
+      </div>
+      <button class="btn-filtrar">Aplicar filtros</button>
+    </div>
+    <ul class="cartas">
+      <li class="carta" data-categoria="McLaren" data-preco="200">
+        <img src="assets/mclaren1.png" alt="mclaren" />
+
+        <div class="informacoes">
+          <h2 class="nome-personagem">Mclaren Black Version</h2>
+          <span class="categoria">Categoria: McLaren</span>
+          <span class="preco">R$ 199,99</span>
+          <a href="#" class="btn-comprar">Comprar</a>
+        </div>
+      </li>
+
+      <li class="carta" data-categoria="Lamborghini" data-preco="130">
+        <img src="assets/lamborghini1.png" alt="lamborghini" />
+        <div class="informacoes">
+          <h2 class="nome-personagem">Lamborghini Black Version</h2>
+          <span class="categoria">Categoria: Lamborgini</span>
+          <span class="preco">R$ 129,99</span>
+          <a href="#" class="btn-comprar">Comprar</a>
+        </div>
+      </li>
+
+      <li class="carta" data-categoria="Porsche" data-preco="100">
+        <img src="assets/porsche.png" alt="porsche" />
+        <div class="informacoes">
+          <h2 class="nome-personagem">Porsche Urban</h2>
+          <span class="categoria">Categoria: Porsche</span>
+          <span class="preco">R$ 99,99</span>
+          <a href="#" class="btn-comprar">Comprar</a>
+        </div>
+      </li>
+
+      <li class="carta" data-categoria="McLaren" data-preco="200">
+        <img src="assets/mclaren2.png" alt="mclaren" />
+        <div class="informacoes">
+          <h2 class="nome-personagem">McLaren Urban</h2>
+          <span class="categoria">Categoria: McLaren</span>
+          <span class="preco">R$ 199,99</span>
+          <a href="#" class="btn-comprar">Comprar</a>
+        </div>
+      </li>
+
+      <li class="carta" data-categoria="Lamborghini" data-preco="150">
+        <img src="assets/lamborghini2.png" alt="lamborghini" />
+        <div class="informacoes">
+          <h2 class="nome-personagem">Lamborghini Urban</h2>
+          <span class="categoria">Categoria: Lamborghini</span>
+          <span class="preco">R$ 149,99</span>
+          <a href="#" class="btn-comprar">Comprar</a>
+        </div>
+      </li>
+
+      <li class="carta" data-categoria="BMW" data-preco="130">
+        <img src="assets/bmw.png" alt="bmw" />
+        <div class="informacoes">
+          <h2 class="nome-personagem">BMW Urban</h2>
+          <span class="categoria">Categoria: BMW</span>
+          <span class="preco">R$ 129,99</span>
+          <a href="#" class="btn-comprar">Comprar</a>
+        </div>
+      </li>
+    </ul>
+  </main>
+  <footer class="rodape">&copy;NitroArt 2025 - Anaellx - Todos os direitos reservados</footer>
+
+  <script src="scripts.js"></script>
+
+</body>
+
+</html>
