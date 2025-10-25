@@ -10,6 +10,13 @@ The project was built with a modern, responsive, and visually striking design, h
 
 ---
 
+## 🌐 Visualização Online | Live Preview
+
+🚀 [Visualizar o site no GitHub Pages](https://anaelx77.github.io/nitroart-landing-page/)
+🚀 [View the website on GitHub Pages](https://anaelx77.github.io/nitroart-landing-page/)
+
+---
+
 ## 💻 Tecnologias utilizadas | Technologies Used  
 - **HTML5** – Estrutura e semântica da página | Page structure and semantics  
 - **CSS3** – Estilização, responsividade e animações | Styling, responsiveness, and animations  
